@@ -1,1 +1,30 @@
 /* You can add global styles to this file, and also import other style files */
+.container {
+    background-color: rgb(243, 243, 243);
+    -webkit-box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,0.5);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.row{
+    margin-bottom: 20px;
+}
+
+.title {
+    background: url(http://petitsbonheursquotidiens.p.e.pic.centerblog.net/5a4e7539.png) no-repeat;
+    background-size: 350px;
+    background-color: white;
+    padding: 10px 0;
+    margin: 0 0 15px 0;
+}
+
+h1 {
+    padding-left: 50px;
+}
+
+.file{
+    min-height: 500px;
+}
+
+

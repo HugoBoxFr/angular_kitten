@@ -1,0 +1,8 @@
+<div class="title">
+    <h2>{{ title }}</h2>
+</div>
+
+<div class="row">
+    <app-kitten class="col-sm-4" *ngFor="let chatton of list" [kitten]="chatton"></app-kitten>
+</div>
+
